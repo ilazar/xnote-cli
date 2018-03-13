@@ -20,3 +20,4 @@ CLI
 Branches
 
 - [01-create-project](./doc/01-create-project.md)
+- [02-re-intro](./doc/02-re-intro.md)
