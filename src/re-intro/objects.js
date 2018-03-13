@@ -9,10 +9,14 @@ const a = new Object();
 const b = {};
 
 // object initialization using object literals
+const updated = Date.now();
+const identifier = 'id';
 const note = { // note is a reference to an object
   text: 'learn js', // property
   done: false,
-  'status': 'active'
+  'status': 'active',
+  updated, // es6
+  [identifier]: 1
 };
 
 // attribute access
@@ -35,3 +39,4 @@ console.assert(note.id === undefined);
 
 // destructuring
 
+// equality

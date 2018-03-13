@@ -1,42 +1,20 @@
-// an object - collection of name-value pairs
+function add(a, b) {
+  return a + b;
+}
+console.assert(typeof add === 'function');
 
-// see Object - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+// arguments
 
-// empty object created using Object constructor
-const a = new Object();
+// function scope, block scope
 
-// empty object created using object literal
-const b = {};
+// rest parameter
 
-// object initialization using object literals
-const updated = Date.now();
-const identifier = 'id';
-const note = { // note is a reference to an object
-  text: 'learn js', // property
-  done: false,
-  'status': 'active',
-  updated, // es6
-  [identifier]: 1
-};
+// arrow function
 
-// attribute access
-console.assert(note.done === false); // dot notation
-console.assert(note['done'] === false); // bracket notation
+// immediately invoked function
 
-// changing property value
-note.done = true;
-console.assert(note.done);
+// inner function
 
-// adding a new property
-note.id = '1';
-console.assert(note.id === '1');
+// closure
 
-// deleting a property
-delete note.id;
-console.assert(note.id === undefined);
-
-// copying objects
-
-// destructuring
-
-// equality
+// generator
